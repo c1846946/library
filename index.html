@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div id="form-container">
+        <form action="" id="myForm">
+            <input type="text" name="title" id="title" placeholder="Title" required>
+            <input type="text" name="author" id="author" placeholder="Author" required>
+            <input type="number" name="pages" id="pages" placeholder="# pages" required>
+            <label for="has-read">Have you read it?</label>
+            <select id="has-read" name="has-read">
+                <option>haven't read</option>
+                <option>have read</option>
+            </select>
+            <input type="submit" value="Add Book" id="submit">
+        </form>
+    </div>
+    <div class="library-container"></div>
+    <script src="app.js"></script>
+</body>
+</html>
